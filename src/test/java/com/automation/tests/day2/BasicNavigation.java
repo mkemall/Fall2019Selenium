@@ -72,5 +72,6 @@ public class BasicNavigation {
         }else{
             System.out.println("TEST FAILED!");
         }
+
     }
 }
