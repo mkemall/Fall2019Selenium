@@ -9,7 +9,7 @@ public class MyFirstSeleniumScript {
         WebDriverManager.chromedriver().setup();
         //create chrome driver object
         ChromeDriver driver = new ChromeDriver();
-        // open some website
+        // open some wwbsitess
         driver.get("http://google.com");
     }
 }
