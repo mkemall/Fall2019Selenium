@@ -17,7 +17,7 @@ public class GoogleSearchTest {
         WebElement search = driver.findElement(By.name("q"));
         // once we found an element , how to enter text ??
         search.sendKeys("Java", Keys.ENTER);
-        // if see <a> elemnet , it calls link
+        // if see <a> element , it calls link
         // visible text of this link , can be used by selenium to find this element
        WebElement news = driver.findElement(By.linkText("News"));
        news.click();
